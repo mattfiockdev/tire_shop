@@ -1,0 +1,18 @@
+.hero {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    background-color: #1f2937;
+}
+
+.header.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    background-color: #1f2937;
+}
+
+.toplinks {
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #e5e7eb;
+}
