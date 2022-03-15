@@ -1,5 +1,9 @@
-.body {
-    background-color: #1f2937;
+body {
+   /* background: #1f2937; */
+}
+
+ul {
+    list-style-type: none;
 }
 
 .logo {
@@ -8,25 +12,21 @@
     background-color: #1f2937;
 }
 
-.toplinks {
-    background-color: #1f2937;
-    font-size: 18px;
-    color: #e5e7eb;
-}
-
 .hero2 {
     font-size: 18px;
     color: #e5e7eb;
 }
 
-.intro_img {
-    height: 215px;
-    width: 158px;
+img {
+    height: 150px;
+    width: auto;
+    
 }
 
 .calltoaction {
     background-color: #3882f6;
-
+    border-radius: 24px;
+    padding: 20px 40px 20px 40px;
 }
 
 .samples {
@@ -35,17 +35,51 @@
     align-items: center;
 }
 
-.items {
+.item {
     flex: 1;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding: 10px 10px 10px 10px;
-
+    margin: 10px 10px;
 }
 
 .container {
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 20px;
+}
+
+.navbar.logo {
+    background: #1f2937
+    height: 60px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+.navbar a:hover {
+    color: lightblue;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    background-color: #1f2937;
+}
+
+.nav {
+    font: #e5e7eb;
+    font-size: 18px;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 20px;
 }
