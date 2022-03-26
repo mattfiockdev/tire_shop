@@ -1,5 +1,5 @@
-body {
-   /* background: #1f2937; */
+* {
+    /* border: 2px solid red; */
 }
 
 ul {
@@ -12,6 +12,16 @@ ul {
     background-color: #1f2937;
 }
 
+.contWrap {
+    background-color: #1f2937;
+    width: 1100px;
+}
+
+.hero {
+    background-color: #1f2937;
+    color: #e5e7eb;
+}
+
 .hero2 {
     font-size: 18px;
     color: #e5e7eb;
@@ -20,7 +30,14 @@ ul {
 img {
     height: 150px;
     width: auto;
-    
+    border-radius: 10px;
+    gap: 5px 5px 5px 5px;
+}
+
+.contWrap.intro_img {
+    display: flex;
+    /* padding: 20px 40px 20px 40px; */
+    float: right;
 }
 
 .calltoaction {
@@ -29,21 +46,38 @@ img {
     padding: 20px 40px 20px 40px;
 }
 
-.item {
+.flex-container {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin: 10px 10px;
+    margin: auto;
+    max-width: 1100px;
+}
+
+.flex-container div {
+    flex: 1;
+    align-items: center;
+}
+
+.container .quotes {
+    background-color: #e5e7eb;
+}
+
+.title2 {
+    display: flex;
+    justify-content: center;
 }
 
 .container {
     max-width: 1100px;
-    margin: 0 auto;
-    padding: 0 20px;
+    margin: 0 auto;  
+}
+
+.descrip_text {
+    color: #e5e7eb;
 }
 
 .navbar.logo {
-    background: #1f2937
+    background: #1f2937;
     height: 60px;
 }
 
